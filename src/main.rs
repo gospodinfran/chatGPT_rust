@@ -25,7 +25,7 @@ struct ChatGPTResponse {
     choices: Vec<ChatGPTChoice>,
 }
 
-const API_KEY: &str = "INSERT_API_KEY";
+const API_KEY: &str = "YOUR_API_KEY";
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
